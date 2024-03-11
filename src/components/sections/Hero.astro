@@ -91,6 +91,13 @@ const printInfo = [email, phone, linkedUrl ].filter(Boolean).join(" • ")
         gap: 1rem;
     }
 
+    @media (max-width: 505px) {
+        .container {
+            flex-wrap: wrap;
+            justify-content: start;
+        }
+    }
+
     .info {
         display: flex;
         flex-direction: column;
