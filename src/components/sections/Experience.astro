@@ -11,7 +11,7 @@ import { work } from "@cv"
                 const startYear = new Date(startDate).getFullYear()
                 const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
                 const years = ` ${startYear} - ${endYear}`
-
+                const tasks = summary.split(/\.|\n/);
                 return (
                     <li>
                         <article>
@@ -24,7 +24,13 @@ import { work } from "@cv"
                             </header>
 
                             <footer>
-                                <p>{summary}</p>
+                                <ul class="experience-list">
+                                    {
+                                        tasks.map((task,index) => (
+                                            <li><p>{task.trim()}</p></li>
+                                        ))
+                                    }
+                                </ul>
                             </footer>
                         </article>
                     </li>
@@ -61,5 +67,9 @@ import { work } from "@cv"
     time {
         color: #555;
         font-size: .85rem;
+    }
+
+    .experience-list {
+        gap: .2rem;
     }
 </style>

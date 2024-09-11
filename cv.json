@@ -1,10 +1,9 @@
 {
     "basics": {
       "name": "Kelvin Miguel Guerrero Mite",
-      "label": "Full Stack Developer y aprendiz de Cloud Computing",
+      "label": "Desarrollador Web y aprendiz de Cloud Computing",
       "image": "/me.webp",
       "email": "kelvinguerrero2199@gmail.com",
-      "phone": "+34 688888888",
       "url": "https://kelvinguerrero.dev",
       "summary": "Apasionado de la informática, me dedico al desarrollo web. Constantemente busco aprender nuevas habilidades y mantenerme actualizado con las últimas tendencias tecnológicas. Actualmente, me estoy especializando en React, y tengo experiencia en HTML, CSS, JavaScript, Vue, Laravel, Bootstrap, Tailwind CSS, Node.js, Express, MongoDB, MySQL.",
       "location": {
@@ -24,11 +23,6 @@
           "network": "GitHub",
           "username": "whoskelos",
           "url": "https://github.com/whoskelos"
-        },
-        {
-          "network": "X",
-          "username": "whoskelos",
-          "url": "https://x.com/whoskelos"
         }
       ]
     },
@@ -38,8 +32,8 @@
         "position": "Desarrollador web",
         "url": "https://mailcommsgroup.com/",
         "startDate": "2023-12-14",
-        "endDate": null,
-        "summary": "Desarrollo de nuevas features para una aplicación de gestión de comunicaciones desarrollada en Laravel, Vue.js, MySQL, SolR",
+        "endDate": "2024-09-17",
+        "summary": "Desarrollo front-end utilizando Vue, Javascript Vanilla y jQuery.Desarrollo de API RESTful utilizando Laravel para la comunicación entre el front-end y el back-end.Desarrollo de funciones en PHP para interactuar con la API de AWS S3.Diseño e implementación de bases de datos MySQL para almacenar y recuperar datos.Diseños web responsivos utilizando Bootstrap.Metodología Agile con la herramienta “YouTrack” a través de sprints",
         "highlights": [
           "Started the company"
         ]
@@ -50,7 +44,7 @@
         "url": "https://twitch.tv/midudev",
         "startDate": "2023-10-01",
         "endDate": "2023-12-13",
-        "summary": "Por una parte, maquetación y composición de documentos en la herramienta de Inspire Designer, por otro lado, se actualizaron las dependencias de una aplicación para la monitorización de los procesos de comunicaciones lanzados a través de otras aplicaciones desarrolladas en Laravel y Vue.js.",
+        "summary": "Por una parte, maquetación y composición de documentos en la herramienta de Inspire Designer, por otro lado, se actualizaron las dependencias de una aplicación para la monitorización de los procesos de comunicaciones lanzados a través de otras aplicaciones desarrolladas en Laravel y Vue",
         "highlights": [
           "Started the company"
         ]
@@ -60,7 +54,7 @@
         "position": "Técnico de TI",
         "startDate": "2023-06-19",
         "endDate": "2023-09-30",
-        "summary": "Mantenimiento de hardware, soporte a usuarios a través de tickets con la herramienta Wrike, gestión de usuarios con AD Azure Active Directory, instalación y configuración de VPN.",
+        "summary": "Mantenimiento de hardware, soporte a usuarios a través de tickets con la herramienta Wrike, gestión de usuarios con AD Azure Active Directory, instalación y configuración de VPN",
         "highlights": [
           "Started the company"
         ]
@@ -70,7 +64,7 @@
         "position": "Técnico de TI",
         "startDate": "2019-07-19",
         "endDate": "2022-07-14",
-        "summary": "Mantenimiento de hardware, soporte a usuarios a través de tickets, gestión de usuarios con Active Directory, instalación y configuración de VPN.",
+        "summary": "Mantenimiento de hardware, soporte a usuarios a través de tickets, gestión de usuarios con Active Directory, instalación y configuración de VPN",
         "highlights": [
           "Started the company"
         ]
@@ -253,6 +247,17 @@
         "url": "https://kelvinguerrero.dev"
       },
       {
+        "name": "Ziamari Construcciones",
+        "isActive": false,
+        "description": "Landing page para una empresa de reformas",
+        "highlights": [
+          "Astro",
+          "Tailwind",
+          "Vercel"
+        ],
+        "url": "https://ziamariconstruccion.com"
+      },
+      {
         "name": "Recambios las margaritas",
         "isActive": false,
         "description": "Landing page para una tienda de recambios",
@@ -275,18 +280,6 @@
           "MongoDB"
         ],
         "url": "https://gamekzone.kelvinguerrero.dev"
-      },
-      {
-        "name": "TheGymVerse",
-        "isActive": false,
-        "description": "Guía de ejercicios con videos con la cantidad de series y repeticiones por ejercicios que realizo",
-        "highlights": [
-          "Angular",
-          "Node.js",
-          "MongoDB",
-          "JavaScript & TypeScript"
-        ],
-        "url": "https://gym.kelvinguerrero.dev"
       },
       {
         "name": "Digital Dreams",
