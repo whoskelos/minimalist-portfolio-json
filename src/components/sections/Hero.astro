@@ -109,11 +109,12 @@ const printInfo = [email, linkedUrl ].filter(Boolean).join(" • ")
     }
 
     h1 {
+        color: var(--text-color-light);
         font-size: 2rem;
     }
 
     h2 {
-        color: #444;
+        color: var(--text-label-light);
         font-weight: 500;
         font-size: 1.1rem;
         text-wrap: balance;
@@ -126,7 +127,7 @@ const printInfo = [email, linkedUrl ].filter(Boolean).join(" • ")
     }
 
     span {
-        color: #666;
+        color: var(--text-label-light);
         display: flex;
         align-items: center;
         gap: .25rem;
@@ -135,7 +136,7 @@ const printInfo = [email, linkedUrl ].filter(Boolean).join(" • ")
     }
 
     footer {
-        color: #666;
+        color: var(--text-color-light);
         font-size: .65rem;
         display: flex;
         gap: 4px;
@@ -143,7 +144,7 @@ const printInfo = [email, linkedUrl ].filter(Boolean).join(" • ")
     }
 
     footer a {
-        color: #777;
+        color: var(--text-color-light);
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -156,7 +157,8 @@ const printInfo = [email, linkedUrl ].filter(Boolean).join(" • ")
     }
 
     footer a:hover {
-        background: #eee;
+        background-color: var(--background-color-dark);
+        color: var(--text-color-dark);
         border: 1px solid #ddd;
     }
 </style>
