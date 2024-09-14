@@ -41,8 +41,11 @@ const { title } = Astro.props;
 </html>
 <script>
     // On page load
-    document.addEventListener("DOMContentLoaded", (event) => {
+    document.addEventListener("DOMContentLoaded", () => {
+        const switcher = document.getElementById("switcher");
+        console.log(switcher);
         if (localStorage.getItem("darkMode") === "enabled") {
+            switcher.checked = true;
             document.body.classList.add("dark-mode");
         }
     });
