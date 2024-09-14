@@ -9,9 +9,9 @@ import { projects } from "@cv";
             projects.map(({ url, description, highlights, name, isActive }) => {
                 return (
                     <li>
-                        <article>
+                        <article class="project">
                             <header>
-                                <h3>
+                                <h3 class="projectTitle">
                                     <a href={url} title={`Ver el proyecto ${name}`} target="_blank">
                                         {name}
                                     </a>
@@ -19,7 +19,7 @@ import { projects } from "@cv";
                                         isActive && <span>&bull;</span>
                                     }
                                 </h3>
-                                <p>{description}</p>
+                                <p class="projectDescription">{description}</p>
                             </header>
                             <footer>
                                 {
@@ -51,7 +51,7 @@ import { projects } from "@cv";
     }
 
     article {
-        background-color: light-dark(#fbfbfb,#3a4f50);
+        background-color: var(--background-article-light);
         border-radius: 8px;
         border: 1px solid #f2f2f2;
         gap: 16px;
@@ -70,7 +70,7 @@ import { projects } from "@cv";
     }
 
     article a {
-        color: light-dark(#1b2223,#fef4f4);
+        color: var(--text-color-light);
     }
 
     article a:hover {
@@ -78,7 +78,7 @@ import { projects } from "@cv";
     }
 
     article p {
-        color: light-dark(#555,#c0c0c0);
+        color: var(--text-description-light);
         font-size: .75rem;
         line-height: 1.2rem;
         margin-bottom: 4px;

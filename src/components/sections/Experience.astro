@@ -16,7 +16,7 @@ import { work } from "@cv"
                     <li>
                         <article>
                             <header>
-                                <div>
+                                <div class="companyInfo">
                                     <h3>{name}</h3>
                                     <h4>{position}</h4>
                                 </div>
@@ -27,7 +27,7 @@ import { work } from "@cv"
                                 <ul class="experience-list">
                                     {
                                         tasks.map((task) => (
-                                            <li><p>{task.trim()}</p></li>
+                                            <li><p class="task">{task.trim()}</p></li>
                                         ))
                                     }
                                 </ul>

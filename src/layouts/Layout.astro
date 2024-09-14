@@ -39,22 +39,80 @@ const { title } = Astro.props;
         <slot />
     </body>
 </html>
-<script></script>
+<script>
+    // On page load
+    document.addEventListener("DOMContentLoaded", (event) => {
+        if (localStorage.getItem("darkMode") === "enabled") {
+            document.body.classList.add("dark-mode");
+        }
+    });
+</script>
 <style is:global>
     :root {
         --background-color-light: #fef4f4;
         --text-color-light: #1b2223;
         --background-color-dark: #1b2223;
         --text-color-dark: #ffffff;
-		--text-label-light: #666;
-		--text-label-dark: #c0c0c0;
-		--text-company-light: #111;
-		--text-company-dark: #fffff0;
-		--text-position-light: #222;
-		--text-position-dark: #c0c0c0;
-		--text-time-light: #666;
-		--text-time-dark: #c0c0c0;
+        --text-label-light: #666;
+        --text-company-light: #111;
+        --text-company-dark: #fffff0;
+        --text-position-light: #222;
+        --text-time-light: #666;
+        --text-silver: #c0c0c0;
+        --background-article-light: #fbfbfb;
+        --background-article-dark: #3a4f50;
+        --text-description-light: #555;
         color-scheme: light dark;
+    }
+    .dark-mode {
+        background-color: var(--background-color-dark);
+        color: var(--text-color-dark);
+        h1 {
+            color: var(--text-color-dark) !important;
+        }
+        .info h2 {
+            color: var(--text-silver) !important;
+        }
+        .info span {
+            color: var(--text-silver) !important;
+        }
+        .info footer.no-print a {
+            background-color: var(--background-color-dark);
+            color: var(--text-color-dark);
+        }
+        .info footer.no-print a:hover {
+            background-color: var(--background-color-light);
+            color: var(--text-color-light);
+        }
+        h2 {
+            color: var(--text-color-dark) !important;
+        }
+        .about {
+            color: var(--text-color-dark) !important;
+        }
+
+        .companyInfo h3 {
+            color: var(--text-company-dark) !important;
+        }
+        .companyInfo h4 {
+            color: var(--text-silver) !important;
+        }
+        .task {
+            color: var(--text-silver) !important;
+        }
+        time {
+            color: var(--text-silver) !important;
+        }
+        .project {
+            background: var(--background-article-dark) !important;
+            color: var(--text-color-dark) !important;
+        }
+        .projectTitle a {
+            color: var(--text-color-dark) !important;
+        }
+        .projectDescription {
+            color: var(--text-silver) !important;
+        }
     }
     html {
         font-family:
@@ -71,6 +129,7 @@ const { title } = Astro.props;
     figure {
         margin: 0;
         padding: 0;
+        transition: all 0.5s ease;
     }
 
     a {
