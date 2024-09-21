@@ -28,6 +28,16 @@
     },
     "work": [
       {
+        "name": "Idealista",
+        "position": "Frontend Developer",
+        "url": "https://idealista.com/",
+        "startDate": "2024-09-18",
+        "summary": "Desarrollo e implementación de interfaces de usuario utilizando.JavaScript ES6+, CSS3 y Less.Testing con Jest.Herramientas de bundling como Webpack.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
         "name": "Grupo MailComms",
         "position": "Desarrollador web",
         "url": "https://mailcommsgroup.com/",
