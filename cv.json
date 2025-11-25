@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Kelvin Miguel Guerrero Mite",
-      "label": "Desarrollador Web y aprendiz de Cloud Computing",
+      "label": "Frontend Developer - JavaScript Developer",
       "image": "/me.webp",
-      "email": "kelvinguerrero2199@gmail.com",
+      "email": "kelvin.guerrero@proton.me",
       "url": "https://kelvinguerrero.dev",
-      "summary": "Apasionado de la informática, me dedico al desarrollo web. Constantemente busco aprender nuevas habilidades y mantenerme actualizado con las últimas tendencias tecnológicas. Actualmente, me estoy especializando en React, y tengo experiencia en HTML, CSS, JavaScript, Vue, Laravel, Bootstrap, Tailwind CSS, Node.js, Express, MongoDB, MySQL.",
+      "summary": "Mi trayectoria en el sector IT comenzó como técnico informático, donde adquirí sólidas habilidades de resolución de problemas y atención al detalle. Durante 4 años, combiné esta experiencia con estudios en desarrollo web, descubriendo mi verdadera pasión por crear interfaces de usuario intuitivas y visualmente atractivas. Actualmente, como desarrollador frontend, me enfoco en construir experiencias digitales excepcionales utilizando JavaScript. Mi objetivo es crear productos digitales que no solo sean funcionales, sino que también sean fáciles de usar y eficientes.",
       "location": {
         "address": "",
         "postalCode": "000000",
@@ -132,51 +132,51 @@
       },
       {
         "name": "CSS",
-        "level": "Master",
+        "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Frontend", "Diseño Responsive"
         ]
       },
       {
         "name": "JavaScript",
-        "level": "Master",
+        "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "Fullstack"
         ]
       },
       {
         "name": "Tailwind",
-        "level": "Avanzado",
+        "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
         ]
       },
+            {
+        "name": "LESS",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS library", "Diseño Responsive"
+        ]
+      },
       {
         "name": "TypeScript",
-        "level": "Avanzado",
+        "level": "Aprendiz",
         "keywords": [
           "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
         ]
       },
       {
         "name": "Node",
-        "level": "Avanzado",
+        "level": "Intermedio",
         "keywords": [
           "Desarrollo Web", "Backend", "JavaScript", "Servidor"
         ]
       },
       {
         "name": "MySQL",
-        "level": "Avanzado",
+        "level": "Intermedio",
         "keywords": [
           "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "MongoDB",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "NO-SQL", "Almacenamiento de Datos", "Backend"
         ]
       },
       {
@@ -201,22 +201,8 @@
         ]
       },
       {
-        "name": "Vue",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
         "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      },
-      {
-        "name": "Angular",
-        "level": "Avanzado",
+        "level": "Aprendiz",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
@@ -257,15 +243,24 @@
         "url": "https://kelvinguerrero.dev"
       },
       {
-        "name": "Ziamari Construcciones",
+        "name": "Construcciones Barreto",
         "isActive": false,
-        "description": "Landing page para una empresa de reformas",
+        "description": "Página web de empresa constructora",
         "highlights": [
           "Astro",
           "Tailwind",
           "Vercel"
         ],
-        "url": "https://ziamariconstruccion.com"
+        "url": "https://www.barretoconstrucciones.es/"
+      },
+            {
+        "name": "CyberMil",
+        "isActive": false,
+        "description": "Página web de servicios informáticos",
+        "highlights": [
+          "Wordpress"
+        ],
+        "url": "https://cybermil.es"
       },
       {
         "name": "Recambios las margaritas",
@@ -277,43 +272,6 @@
           "Tailwind"
         ],
         "url": "https://recambioslasmargaritas.es/"
-      },
-      {
-        "name": "GameKeyZone",
-        "isActive": false,
-        "description": "Tienda de videojuegos",
-        "highlights": [
-          "React",
-          "Paypal",
-          "Tailwind",
-          "Firebase",
-          "MongoDB"
-        ],
-        "url": "https://gamekzone.kelvinguerrero.dev"
-      },
-      {
-        "name": "Digital Dreams",
-        "isActive": false,
-        "description": "Dashboard para administración de usuarios y equipos.",
-        "highlights": [
-          "Angular",
-          "Node.js",
-          "Bootstrap",
-          "MongoDB"
-        ],
-        "url": "https://ddreams.kelvinguerrero.dev"
-      },
-      {
-        "name": "Pet Name Generator",
-        "isActive": false,
-        "description": "Aplicación para generar 3 nombres aleatorios para tu mascota (perro o gato)",
-        "highlights": [
-          "JavaScript",
-          "OpenAI",
-          "EJS",
-          "CSS"
-        ],
-        "url": "https://quiet-sunset-9039.fly.dev"
       }
     ]
   }
